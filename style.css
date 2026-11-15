@@ -1,4 +1,60 @@
-    rticle {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ 
+body {
+  font-family: Arial, sans-serif;
+  background: #fff8ed;
+  color: #28153f;
+}
+ 
+main {
+  padding: 30px 8%;
+}
+ 
+main h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+ 
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 8%;
+  background: #28153f;
+  color: white;
+}
+ 
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  transition: .3s;
+}
+ 
+nav a:hover {
+  color: #ff9d22;
+}
+ 
+header {
+  text-align: center;
+  padding: 45px 15px;
+  background: #ff9d22;
+}
+ 
+header h1 {
+  margin-bottom: 12px;
+}
+ 
+.menu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+ 
+article {
   background: white;
   padding: 25px;
   text-align: center;
